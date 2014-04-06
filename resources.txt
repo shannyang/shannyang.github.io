@@ -1,0 +1,11 @@
+FONTS:
+-- Museo Slab 500
+   http://www.myfonts.com/fonts/exljbris/museo-slab/500/
+-- Bebas Neue
+   http://www.fontsquirrel.com/fonts/bebas-neue
+
+BACKGROUNDS:
+-- Black Twill - Cary Fleming
+   http://subtlepatterns.com/black-twill/
+-- Diamond Upholstery - Dimitar Karaytchev
+   http://subtlepatterns.com/diamond-upholstery/)
