@@ -162,6 +162,12 @@ h1:hover {
   -o-transition: 1.5s;
 }
 
+#menu curpage {
+  color: white;
+  border-bottom-color: #E8E8E8;
+  opacity: 1;
+}
+
 #menu a:hover {
   color: white;
   border-bottom-color: white;
