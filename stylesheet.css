@@ -107,7 +107,7 @@ h1:hover {
 }
 
 #banner:hover{
-  border-left: 15px #E8E8E8 solid;
+  border-color: 15px #E8E8E8 solid;
 }
 
 #content {
@@ -218,7 +218,7 @@ h1:hover {
 }
 
 .section-content:hover {
-  border-left: 10pt #80B8B8 solid;
+  border-color: #80B8B8;
   padding-bottom: 1px;
   transition: 1s;
   -moz-transition: 1s;
