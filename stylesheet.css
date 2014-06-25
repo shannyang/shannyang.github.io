@@ -219,7 +219,6 @@ h1:hover {
 
 .section-content:hover {
   border-color: #80B8B8;
-  padding-bottom: 1px;
   transition: 1s;
   -moz-transition: 1s;
   -webkit-transition: 1s;
