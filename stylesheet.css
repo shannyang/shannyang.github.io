@@ -92,20 +92,8 @@ h1:hover {
   -moz-border-radius: 4em 1em 4em 1em;
   border-radius: 4em 1em 4em 1em;
   border-left: white 7px double;
-  opacity: 0.8;
-  background-image: url('images/black_twill.png');
-  transition: 1s;
-  -moz-transition: 1s;
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-}
-
-#all:hover {
   opacity: 1;
-  transition: 1.5s;
-  -moz-transition: 1.5s;
-  -webkit-transition: 1.5s;
-  -o-transition: 1.5s;
+  background-image: url('images/black_twill.png');
 }
 
 #banner {
