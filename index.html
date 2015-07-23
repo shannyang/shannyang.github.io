@@ -1,54 +1,231 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- Hello, sneaky person! Nothing to see here! -->
 <html lang="EN" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="content-type" content="text/xml; charset=utf-8" />
-    <title>I have bunnies and tea</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <title>❀ ❀ ❀</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="custom.css"/>
   </head>
 
-  <body>
-  <div id="all">
+  <body id="top"> <!-- id for smoother scrolling -->
+    
+    <header>
+      <nav id    = "main-nav"
+           class = "nav navbar-default navbar-fixed-top"
+           role  = "navigation">
+        <div class="container">
 
-  <!--Header-->
-    <h1 id="banner">Shannon Yang</h1>
+          <div class="navbar-header">
+            <button type          = "button"
+                    class         = "navbar-toggle collapsed"
+                    data-toggle   = "collapse"
+                    data-target   = "#collapse"
+                    aria-expanded = "false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div> <!-- navbar-header -->
 
-  <!--Menu-->
-    <div id="menu">
-    <div id="nav">
-    <ul>
-      <li><a class="curpage" href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-    </div>
-    </div>
+          <div class="collapse navbar-collapse" id="collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"> <a href="#top">       Top       </a></li>
+              <li>                <a href="#about">     About     </a></li>
+              <li>                <a href="#portfolio"> Portfolio </a></li>
+              <li>                <a href="#contact">   Contact   </a></li>
+            </ul>
+          </div> <!-- menu-collapse -->
 
-  <!--Layout images-->
+        </div> <!-- container -->
+      </nav>
+    </header>
 
-  <!--Content-->
-    <div id = "content">
 
-      <div class="block">
-        <div class="section">a herculean effort:</div>
-        <div class="section-content">
-          <p>I have a dream that will perhaps be realized some time and place,
-            in the far-off distance.</p>
-          <p><em>Someday I will sleep.</em> I swear it on my weary body and soul.</p>
-        </div>
-      </div>
+    <!-- Top image -->
+    <div class="page" id="welcome">
+      <div class="container">
 
-      <div class="block">
-        <div class="section">bunnies:</div>
-        <div class="section-content">
-          <p>Are very cute, yes yes.</p>
-        </div>
-      </div>
+        <h1 id="maintitle">Hello!</h1>
 
-    </div>
+        <p class="highlight">
+        Lorem ipsum dolor sit amet, consectetur adipiscing 
+        elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue 
+        ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis 
+        dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. 
+        Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut 
+        libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit 
+        amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis 
+        felis, pulvinar a semper sed, adipiscing id dolor.
+        </p>
 
-  </div>
+      </div> <!-- container -->
+    </div> <!-- welcome -->
+
+      <!-- About -->
+    <div class="page" id="about">
+      <div class="container">
+
+        <h2><span class="glyphicon glyphicon-chevron-right"></span> About</h2>
+
+        <p>Pellentesque auctor nisi id magna consequat sagittis. Curabitur 
+        dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. 
+        Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. 
+        Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum 
+        sociis natoque penatibus et magnis dis parturient montes, nascetur 
+        ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem 
+        facilisis semper ac in est.</p>
+
+      </div> <!-- container -->
+    </div>  <!-- about -->
+
+    <div class="container">
+      <div class="page" id="portfolio">
+
+        <h2><span class="glyphicon glyphicon-chevron-right"></span> Portfolio</h2>
+
+        <p>Proin quis dictum nisl. Morbi id quam sapien, sed vestibulum sem. 
+        Duis elementum rutrum mauris sed convallis. Proin vestibulum magna mi. 
+        Aenean tristique hendrerit magna, ac facilisis nulla hendrerit ut.</p>
+
+        <!-- * Collapsible divs for portfolio! -->
+        <div class                = "panel-group col-md-10 col-md-offset-1"
+             id                   = "projects"
+             role                 = "tablist"
+             aria-multiselectable = "true">
+
+          <div class = "panel panel-default">
+            <div class = "panel-heading"
+                 role  = "tab"
+                 id    = "fireflyhead">
+              <h4 class="panel-title">
+                <a role          = "button"
+                   data-toggle   = "collapse"
+                   data-parent   = "#projects"
+                   href          = "#fireflyer"
+                   aria-expanded = "true"
+                   aria-controls = "fireflyer">
+                  Fire Flyer
+                </a>
+              </h4>
+            </div>
+            <div id              = "fireflyer"
+                 class           = "panel-collapse collapse in"
+                 role            = "tabpanel"
+                 aria-labelledby = "fireflyhead">
+              <div class="panel-body">
+                Curabitur tortor. Pellentesque nibh. Aenean quam. In 
+                scelerisque sem at dolor. Maecenas mattis. Sed convallis 
+                tristique sem. Proin ut ligula vel nunc egestas porttitor. 
+                Morbi lectus risus, iaculis vel, suscipit quis, luctus non, 
+                massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris 
+                ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, 
+                euismod in, nibh. Quisque volutpat condimentum velit. Class 
+                aptent taciti sociosqu ad litora torquent per conubia nostra, 
+                per inceptos himenaeos. 
+              </div>
+            </div> <!-- fireflyer -->
+          </div> <!-- panel -->
+
+          <div class="panel panel-default">
+            <div class = "panel-heading"
+                 role  = "tab"
+                 id    = "asteroidshead">
+              <h4 class="panel-title">
+                <a class         = "collapsed"
+                   role          = "button"
+                   data-toggle   = "collapse"
+                   data-parent   = "#projects"
+                   href          = "#asteroids"
+                   aria-expanded = "false"
+                   aria-controls = "asteroids">
+                  Asteroids?!
+                </a>
+              </h4>
+            </div>
+            <div id              = "asteroids"
+                 class           = "panel-collapse collapse"
+                 role            = "tabpanel"
+                 aria-labelledby = "asteroidshead">
+              <div class="panel-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life 
+                accusamus terry richardson ad squid. 3 wolf moon officia aute, 
+                non cupidatat skateboard dolor brunch. Food truck quinoa 
+                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt 
+                aliqua put a bird on it squid single-origin coffee nulla 
+                assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft 
+                beer labore wes anderson cred nesciunt sapiente ea proident. 
+                Ad vegan excepteur butcher vice lomo. Leggings occaecat craft 
+                beer farm-to-table, raw denim aesthetic synth nesciunt you 
+                probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div> <!-- asteroids -->
+          </div> <!-- panel -->
+
+          <div class="panel panel-default">
+            <div class = "panel-heading"
+                 role  = "tab"
+                 id    = "asympthead">
+              <h4 class="panel-title">
+                <a class = "collapsed"
+                   role = "button"
+                   data-toggle   = "collapse"
+                   data-parent   = "#projects"
+                   href          = "#asymptotic"
+                   aria-expanded = "false"
+                   aria-controls = "asymptotic">
+                  Asymptotic Software Website
+                </a>
+              </h4>
+            </div>
+            <div id              = "asymptotic"
+                 class           = "panel-collapse collapse"
+                 role            = "tabpanel"
+                 aria-labelledby = "asympthead">
+              <div class="panel-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life 
+                accusamus terry richardson ad squid. 3 wolf moon officia aute, 
+                non cupidatat skateboard dolor brunch. Food truck quinoa 
+                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt 
+                aliqua put a bird on it squid single-origin coffee nulla 
+                assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft 
+                beer labore wes anderson cred nesciunt sapiente ea proident. 
+                Ad vegan excepteur butcher vice lomo. Leggings occaecat craft 
+                beer farm-to-table, raw denim aesthetic synth nesciunt you 
+                probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div> <!-- asymptotic -->
+          </div> <!-- panel -->
+
+        </div> <!-- projects -->
+
+      </div> <!-- portfolio -->
+    </div> <!-- container -->
+
+    <div class="container">
+      <div class="page" id="contact">
+
+        <h2><span class="glyphicon glyphicon-chevron-right"></span> Contact</h2>
+
+        <p>Ut dolor diam, elementum et vestibulum eu, porttitor vel elit. 
+        Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat 
+        faucibus nunc euismod ultricies ut id justo. Nullam cursus suscipit 
+        nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus 
+        ac semper. Aliquam at massa ipsum. Quisque bibendum purus convallis 
+        nulla ultrices ultricies. Nullam aliquam, mi eu aliquam tincidunt, 
+        purus velit laoreet tortor, viverra pretium nisi quam vitae mi. Fusce 
+        vel volutpat elit. Nam sagittis nisi dui.</p>
+
+      </div> <!-- contact -->
+    </div> <!-- container -->
+
+    <footer>
+    </footer>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="custom.js"></script>
+
   </body>
 
 </html>

@@ -1,0 +1,128 @@
+/* Fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700);
+@import url(http://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300);
+@import url(http://fonts.googleapis.com/css?family=Nobile);
+
+/* Navigation */
+
+.navbar-default {
+  background-color: white;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px #E0E0E0 solid;
+}
+
+.navbar-default .navbar-nav li {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+  background-color: black;
+}
+
+/* Pick different hover color for active link!
+ * Also, figure out a way to emulate that color
+ * scheme in the smaller screen. */
+@media (min-width:768px) {
+  .navbar-default .navbar-nav li:hover {
+    border-bottom: 4px #C6C6C6 solid;
+  }
+  .navbar-default .navbar-nav .active {
+    border-bottom: 4px #008080 solid;
+  }
+  .navbar-default .navbar-nav .active:hover {
+    border-bottom: 4px #7DABAA solid;
+  }
+}
+
+@media (max-width:767px) {
+  .navbar-default .navbar-nav li {
+    display: block;
+  }
+  .navbar-default .navbar-nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.navbar-default .navbar-nav {
+  float: none;
+}
+
+.navbar-default .navbar-collapse {
+  text-align: center;
+}
+
+/* Body */
+
+body {
+  position: relative;
+  padding-top: 50px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.65em;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 20px;
+}
+
+.page {
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+/* Welcome */
+
+h1 {
+  font-family: 'Great Vibes', sans-serif;
+  font-size: 5em;
+  text-align: center;
+  color: #008080;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* About */
+
+/* Portfolio */
+
+#projects {
+  margin-top: 30px;
+}
+
+.panel .panel-heading {
+  background-color: white;
+  border: 1px #5A5A5A solid;
+}
+
+#projects h4 a {
+  font-variant: small-caps;
+  display: block;
+  font-size: 1.2em;
+}
+
+#projects h4 a:hover,  #projects h4 a:focus{
+  text-decoration: none;
+}
+
+
+/* Contact */
+
+/* Footer */
+
+footer {
+  margin-top: 60px;
+}
