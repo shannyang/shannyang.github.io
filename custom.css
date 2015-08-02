@@ -2,33 +2,31 @@
 
 @import url(http://fonts.googleapis.com/css?family=Quicksand:400,700);
 @import url(http://fonts.googleapis.com/css?family=Great+Vibes);
-@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300);
-@import url(http://fonts.googleapis.com/css?family=Nobile);
 
 /* Navigation */
 
-.navbar-default {
+#main-nav {
   background-color: white;
   font-family: 'Quicksand', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px #E0E0E0 solid;
 }
 
-.navbar-default .navbar-nav li {
+#main-nav .navbar-nav li {
   display: inline-block;
   float: none;
   vertical-align: top;
 }
 
-.navbar-default .navbar-toggle {
+#main-nav .navbar-toggle {
   border: none;
 }
 
-.navbar-default .navbar-toggle:hover {
+#main-nav .navbar-toggle:hover {
   background-color: transparent;
 }
 
-.navbar-default .navbar-toggle:hover .icon-bar {
+#main-nav .navbar-toggle:hover .icon-bar {
   background-color: black;
 }
 
@@ -36,32 +34,32 @@
  * Also, figure out a way to emulate that color
  * scheme in the smaller screen. */
 @media (min-width:768px) {
-  .navbar-default .navbar-nav li:hover {
+  #main-nav .navbar-nav li:hover {
     border-bottom: 4px #C6C6C6 solid;
   }
-  .navbar-default .navbar-nav .active {
+  #main-nav .navbar-nav .active {
     border-bottom: 4px #008080 solid;
   }
-  .navbar-default .navbar-nav .active:hover {
+  #main-nav .navbar-nav .active:hover {
     border-bottom: 4px #7DABAA solid;
   }
 }
 
 @media (max-width:767px) {
-  .navbar-default .navbar-nav li {
+  #main-nav .navbar-nav li {
     display: block;
   }
-  .navbar-default .navbar-nav {
+  #main-nav .navbar-nav {
     margin-top: 0px;
     margin-bottom: 0px;
   }
 }
 
-.navbar-default .navbar-nav {
+#main-nav .navbar-nav {
   float: none;
 }
 
-.navbar-default .navbar-collapse {
+#main-nav .navbar-collapse {
   text-align: center;
 }
 
