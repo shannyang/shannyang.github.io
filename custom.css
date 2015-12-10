@@ -82,6 +82,18 @@ h2 {
   padding-bottom: 0px;
 }
 
+.icon {
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
+  opacity: 0.8;
+}
+
+.icon:hover {
+  opacity: 1.0;
+}
+
 /* Welcome */
 
 h1 {
@@ -119,6 +131,22 @@ h1 {
 
 /* Contact */
 
+#contact h3 {
+  text-align: center;
+  color: #008080;
+}
+
+#contact a:hover {
+  text-decoration: none;
+  color: #008080;
+}
+
+#contact .btn {
+  font-variant: small-caps;
+  font-size: 120%;
+  border-color: #5A5A5A;
+  margin-top: 30px;
+}
 /* Footer */
 
 footer {
